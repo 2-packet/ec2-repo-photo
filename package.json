@@ -6,9 +6,9 @@
   "author": "",
   "license": "",
   "scripts": {
-    "start": "nodemon server/server.js",
+    "start": "node server/postgresServer.js",
     "react-dev": "webpack -d --watch",
-    "build": "webpack -d",
+    "build": "webpack -p",
     "seed": "mysql -u root < schema.sql -p",
     "sql": "mysql -u root -p",
     "test": "jest",
